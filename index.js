@@ -18,7 +18,7 @@ const errorHandler = require("./handlers/error");
 app.use(cors());
 app.use(bodyParser.json());
 
-app.get("/api/auth", (req,res)=>{
+app.get("/", (req,res)=>{
     res.send("hello");
 })
 
